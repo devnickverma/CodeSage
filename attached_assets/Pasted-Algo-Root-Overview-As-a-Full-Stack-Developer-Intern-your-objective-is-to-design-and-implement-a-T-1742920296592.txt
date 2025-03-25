@@ -1,0 +1,50 @@
+Algo Root
+Overview
+As a Full-Stack Developer Intern, your objective is to design and implement a Task
+Management, a web application that enables users to manage tasks. This task is expected to
+be completed within 2 days, demonstrating your ability to develop both frontend and backend
+components efficiently while following best practices.
+Key Features
+1. Task Management :
+○ Task Management: Implement functionality to create, edit, delete, and mark
+tasks as completed.
+2. Backend API Development:
+○ Tech Stack: Utilize Node.js with Express or any other backend framework of
+your choice.
+○ API Endpoints:
+■ GET /tasks: Retrieve all tasks.
+■ POST /tasks: Create a new task.
+■ PUT /tasks/:id: Update an existing task (e.g., mark as completed or
+modify details).
+■ DELETE /tasks/:id: Remove a task.
+○ Error Handling: Implement proper HTTP status codes and messages for
+common issues (e.g., validation failures, missing resources).
+3. Data Persistence:
+○ Storage Options: Choose an appropriate data storage mechanism, such as an
+in-memory store, file-based JSON storage, SQLite, or another database.
+Data Model Details
+Below is a suggested schema for task and activity management:
+● Task Model:
+○ id: Unique identifier (string or number).
+○ title: Brief description of the task.
+○ description: (Optional) Detailed information about the task.
+○ completed: Boolean flag indicating task status.
+Implementation Guidelines
+● Frontend Development: You have full flexibility in designing the UI using any frontend
+framework (React/ Next js). The focus should be on functionality, not aesthetics.
+● Code Quality: Follow best practices for modularity, readability, and maintainability.
+Ensure adequate documentation within your code.
+● API Documentation: Include a README file detailing:
+○ Installation steps and setup instructions.
+○ API endpoints with request/response formats.
+○ Instructions for testing the API using Postman, curl, or any other tool.
+○ Screenshots showcasing the UI.
+This assignment serves as a practical demonstration of your full-stack development capabilities,
+problem-solving skills, and ability to implement a structured and efficient solution. Focus on
+delivering a functional, well-documented, and maintainable application within the given
+timeframe.
+Important Note:
+Submit the Github url and using the Google Form provided below (Make sure your live url is
+present in your github repo):
+https://docs.google.com/forms/d/1wygUvF5lRxvS3R4XTmofuEwjAx_oYqbCUtTvQ2R5KWc/viewform?edit
+_requested=true
