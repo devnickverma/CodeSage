@@ -84,6 +84,22 @@ DELETE /api/tasks/:id
 }
 ```
 
+## Testing the API
+You can test the API using the following tools:
+- **Postman**: Import API endpoints and test requests.
+- **curl**: Use command-line requests.
+- **REST Client Extension** in VS Code.
+
+### Example using curl
+```sh
+curl -X GET http://localhost:3000/api/tasks
+```
+
+## Screenshots
+
+### UI Example
+![UI Screenshot](attached_assets/project_ui.png)
+
 ## Troubleshooting
 If you encounter the error:
 ```
